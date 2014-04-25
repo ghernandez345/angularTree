@@ -2,6 +2,9 @@
  * Recursion Helper service
  * ------------------------------------------------------------------------
  * Helps with directives that want to use themseleves recursively (eg. a tree directive).
+ *
+ * Big props to this guy's answer:
+ * http://stackoverflow.com/questions/14430655/recursion-in-angular-directives
  */
 angular.module('angularTree')
 
