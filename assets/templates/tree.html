@@ -1,0 +1,9 @@
+<div class="{{ data.type }}">
+  <h2>{{ data.name }}</h2>
+
+  <ul class="children">
+    <li ng-repeat="child in data.children">
+      <tree data="child"></tree>
+    </li>
+  </ul>
+</div>
